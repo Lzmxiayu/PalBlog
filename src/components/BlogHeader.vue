@@ -48,6 +48,7 @@ export default {
 #blog-header{
   padding:0;
   margin-top:25px;
+  margin-bottom: 25px;
 }
 .blog-masthead {
   /* background-color: #428bca; */

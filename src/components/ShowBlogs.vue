@@ -212,12 +212,21 @@ h6, .h6 {
   font-size: 18px;
   line-height: 1.5;
   margin-right:4%;
-  margin-top:25px;
-  padding:25px 25px 25px 25px;
-
-  background: white;
+  margin-left:2%;  
+  /* margin-top:25px; */
+  /* padding:25px 25px 25px 25px; */
+ 
+  /* background: white; */
   /* box-shadow:0px 0px 10px #000; */
 }
+.single-blog{
+  background: white;
+  margin-bottom:20px;
+   border-radius:15px;
+   padding:22px;
+  /* margin:top */
+}
+
 #myVideo{
   width:32%;
   height:18%;
@@ -226,10 +235,10 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .blog-sidebar{
-  margin-left:4%;
+  /* margin-left:4%; */
   /* margin-right:0; */
   background: white;
-  margin-top:25px;
+  /* margin-top:25px; */
 }
 .sidebar-module {
   /* text-align: center; */

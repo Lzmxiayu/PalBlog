@@ -1,32 +1,34 @@
 <template>
   <div id="single-blog">
     <div class='arti'>
-    <div class='article-title'>
-      <h1 >{{blog.title}}</h1>
+      <div class='article-title'>
+        <h1 >{{blog.title}}</h1>
+      </div>
+      
+      <div class='article_content'>
+        <video
+        id="myVideo"
+        controls
+        class="video-js"
+        >
+        <source
+            src="../assets/videos/坦克大战.mp4"
+            type="video/mp4"
+        >
+      </video>
+      <!-- <br> -->
+        <article>{{blog.content}}</article>
+      </div>  
+      </div>
+      <div class="editfooter">
+        <button @click="deleteSingleBlog" class="deleteButton">删除</button>
+        
+        <router-link :to="`/nc/edit/${id}`"  class="editButton"><button >编辑</button></router-link>
+        </div>
+      <div class="container">
+      <div class="row"> 
+      </div>
     </div>
-    <video
-      id="myVideo"
-      controls
-      class="video-js"
-      >
-      <source
-          src="../assets/videos/坦克大战.mp4"
-          type="video/mp4"
-      >
-    </video>
-    <div class='article_content'>
-      <article>{{blog.content}}</article>
-    </div>  
-    </div>
-    <div class="editfooter">
-    <button @click="deleteSingleBlog" class="deleteButton">删除</button>
-    <br>
-    <router-link :to="`/nc/edit/${id}`"  class="editButton"><button >编辑</button></router-link>
-    </div>
-  <div class="container">
-  <div class="row"> 
-  </div>
-</div>
   </div>
 
 </template>
@@ -71,39 +73,60 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+
+
+#single-blog{
+    width:96%;
+    margin-left: 2%;
+    padding:30px;
+    height:80%;
+    background: white;
+    border-radius:15px;
+    /* opacity:0.9; */
+   
+}
+.arti{
+  height:80%;
+}
 .article-title{
-  margin:20px;
+  height:20%;
+  margin-bottom:2%;
+  /* displa */
+  /* margin:20px; */
+  /* text-align: center; */
+  /* margin:50px; */
+}
+h1{
+  
+  margin: auto;
+  width: 50%;
   text-align: center;
 }
 .article_content{
   font-size: 20px;
+  height:60%;
   /* text-align: center; */
 }
-#single-blog{
-    max-width:80%;
-    height:800px;
-    margin:0 auto;
-    padding:30px;
-    /* padding:12px 20px 30px 20px; */
-    /* background: rgb(230, 203, 203); */
-    /* border:1px dotted #aaa; */
+article{
+ width:90%; 
+ margin-left: 5%;
 }
 .video-js{
-  width:80%;
-  height:50px;
-  margin-left:10%;
+  width:25%;
+  margin-left:37.5%;
   margin-bottom: 20px;
 }
 .deleteButton{
-   margin:20px;
-  margin-top:30px;
+   margin-right:30px;
+   margin-top:30px;
  
   /* margin-left: 85%; */
 }
 .editButton{
-  margin:20px;
-  /* margin-left: 85%; */
+  /* height:20%;
+  margin:20px; */
+  margin-right: 5%;
 }
 .editfooter{
   text-align: right;

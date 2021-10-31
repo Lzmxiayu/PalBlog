@@ -20,20 +20,16 @@ export default {
 
 <style scoped>
 .photos{
-  /* margin:10%; */
+  margin-left:2%;
   margin-top:25px;  
-  width:100%;
+  width:96%;
   padding:5%;
-  /* padding:10%; */
+  border-radius: 15px;
   background: white;
 }
 .photos .img-responsive{
-   width:45%;
+   width:45.5%;
    height:30%;  
-   /* width:420px;
-   height:315px; */
-  margin:2.25%;
-  /* margin-top:0; */
-  /* height:50%; */
+   margin:2%;
 }
 </style>

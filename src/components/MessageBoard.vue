@@ -101,6 +101,9 @@ export default {
 <style scoped>
 #message-board{
     background:white;
+    border-radius: 15px;
+    width:96%;
+    margin-left:2%;
     /* padding-top: */
 }
 .container-out{

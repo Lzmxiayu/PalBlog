@@ -32,12 +32,7 @@ export default {
 <style scoped>
 #navcon{
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* height:75%; */
-  /* padding:5% 3% 5% 3%; */
-  /* margin:10px 3% 5% 3%; */
-
-  /* margin-top:12%; */
-   /* background: url('../assets/background.jpg'); */
+  
 }
 
 
@@ -47,6 +42,7 @@ export default {
   width:80%;
   /* height:80%; */
   /* margin-top:12%; */
+  /* height:100%; */
   padding-bottom:3%;
   z-index: -10;
   margin-left:10%;

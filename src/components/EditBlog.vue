@@ -117,11 +117,12 @@ export default {
     box-sizing: border-box;
 }
 #edit-blog{
-    margin: 0 auto;
-    margin-top:60px;
-    margin-bottom: 60px;
-    max-width: 600px;
-    padding: 0 auto;
+    width:96%;
+    margin-left:2%;
+    padding:30px;
+    background: white;
+    border-radius:15px;
+    opacity:0.9;
     /* display:center; */
     /* text-align: center; */
     

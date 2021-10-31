@@ -107,17 +107,14 @@ export default {
 
 }
 #add-blog{
-    /* margin: 0 auto; */
-    margin-top:25px;
-    width:100%;
-    padding:5% 10%;
-    /* padding-top:5%; */
-
-    /* max-width: 600px; */
+    /* margin-top:25px; */
+    width:96%;
+    padding:5% 10% ;
+    margin-left:2%;
+    opacity:0.9;
     padding: 0 auto;
-    /* display:center; */
-    /* text-align: center; */
-    /* background: white; */
+    background: white;
+    border-radius:15px;
 }
 h1{
     
