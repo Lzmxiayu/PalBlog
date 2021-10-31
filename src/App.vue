@@ -2,12 +2,7 @@
   <div id="app">
     
     <router-view></router-view>
-     <!-- <audio 
-            controls="controls"
-            autoplay
-            class="music-player">
-            <source src="./assets/music/LovingStrangers.mp3">
-      </audio> -->
+     
     <!-- <nav-content/> -->
   </div>
 </template>
@@ -43,20 +38,14 @@ export default {
 #app {
   
   color: #555;
-  /* background: url('./assets/background.jpg'); */
-  /* background-color: #FFF2E2; */
-   /* height:100%; */
-    background: url('./assets/bg3.png');
-    /* height:100%; */
-    /* size:100% 100%; */
-    /* min-height:720px; */
-    /* max-height:300px;  */
-/* width:100%; */ 
+  background: url('./assets/bg3.png');
+  display: grid; 
 }
 
-/* @media (min-height: 2000px) {
+@media (min-height: 720px) {
   #app {
-    height: 500%;
+    min-height: 100%;
+    width:100%;
   }
-} */
+}
 </style>

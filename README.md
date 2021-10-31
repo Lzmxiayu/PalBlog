@@ -36,10 +36,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 2.Cover受body大小影响不能铺满界面
 解決方法：
-@media (min-height: 720px) {
-  .container {
-    height: 100%;
-  }
+父组件{
+  display:grid;
 }
 
 3.背景颜色未铺满：

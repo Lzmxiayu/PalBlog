@@ -182,11 +182,11 @@ h6, .h6 {
    /* padding-right: 15px; */
    /* background-color: #FFF2E2; */
  /*} */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     width: 100%;
   }
-}
+} */
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -216,6 +216,7 @@ h6, .h6 {
   padding:25px 25px 25px 25px;
 
   background: white;
+  /* box-shadow:0px 0px 10px #000; */
 }
 #myVideo{
   width:32%;

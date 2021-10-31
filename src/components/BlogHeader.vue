@@ -47,6 +47,7 @@ export default {
 <style scoped>
 #blog-header{
   padding:0;
+  margin-top:25px;
 }
 .blog-masthead {
   /* background-color: #428bca; */
@@ -60,6 +61,7 @@ export default {
   position: relative;
   display: inline-block;
   padding: 10px;
+  font-size:22px;
   /* font-weight: 400; */
   /* color: #cdddeb; */
   color:black;
