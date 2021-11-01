@@ -1,4 +1,4 @@
-import addBlog from './components/addBlog'
+import AddBlog from './components/AddBlog'
 import ShowBlogs from './components/ShowBlogs'
 import SingleBlog from './components/SingleBlog'
 import EditBlog from './components/EditBlog'
@@ -15,7 +15,8 @@ export default[
     {path:"/nc",
     component:NavContent,
     children:[
-        {path:"add",component:addBlog},
+       
+        {path:"add",component:AddBlog},
         {path:"blogs",component:ShowBlogs},
         {path:"edit/:id",component:EditBlog},
         {path:"bbs",component:MessageBoard},

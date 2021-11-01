@@ -5,8 +5,8 @@
        <img src="../assets/photos/3.jpg" class="img-responsive" alt="Responsive image">
        <!-- <br> -->
       <img src="../assets/photos/2.jpg" class="img-responsive" alt="Responsive image">    
-       <img src="../assets/photos/1.jpg" class="img-responsive" alt="Responsive image"> 
-       <img src="../assets/photos/4.jpg" class="img-responsive" alt="Responsive image"> 
+       <!-- <img src="../assets/photos/1.jpg" class="img-responsive" alt="Responsive image"> 
+       <img src="../assets/photos/4.jpg" class="img-responsive" alt="Responsive image">  -->
        
     </div>
   </div>

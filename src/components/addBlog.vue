@@ -19,16 +19,12 @@
         <input type="checkbox" value="Node" v-model="blog.categories"/>
         <label>Angular</label>
         <input type="checkbox" value="Angular" v-model="blog.categories"/>
-        <br/>
-        <label><h3><strong>作者</strong></h3></label>
-        <select v-model="blog.author">
-            <option v-for="author in authors" :key="author">
-                {{author}}
-            </option> 
-        </select>
+        </div>
+      <label><h3><strong>作者</strong></h3></label>
+        <input type="text" v-model="blog.author"/>
         <button v-on:click.prevent="post">添加博客</button>
 
-      </div>
+     
 
       </form>
         <div v-if="submitted">
@@ -109,20 +105,18 @@ export default {
 #add-blog{
     /* margin-top:25px; */
     width:96%;
-    padding:5% 10% ;
+    padding:6% 10% ;
     margin-left:2%;
     opacity:0.9;
     padding: 0 auto;
     background: white;
     border-radius:15px;
 }
-h1{
-    
-}
+
 
 label{
     display:block;
-    margin:20px 0 10px;
+    margin:10px 0 10px;
 }
 
 input[type="text"],textarea,select{
@@ -135,6 +129,7 @@ textarea{
 }
 #checkboxes{
     padding:10px;
+    padding-bottom: 0;
 }
 #checkboxes label{
     display:inline-block;

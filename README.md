@@ -28,7 +28,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 待做：
 浮动显示留言，
-音乐播放器（播放提前存好的音乐）
+文章，评论分页显示
+<!-- 音乐播放器（播放提前存好的音乐） -->
 
 
 目前问题：
@@ -36,8 +37,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 2.Cover受body大小影响不能铺满界面
 解決方法：
-父组件{
-  display:grid;
+{
+   position:fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
 }
 
 3.背景颜色未铺满：

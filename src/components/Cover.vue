@@ -28,7 +28,7 @@
               <div class="inner-cover" >
                   
                 <div class="cover-heading">
-                  <h1 >刘某人的博客</h1>
+                  <h1 >某人的博客</h1>
                   <p class="lead">
                     欢迎来到我的博客，点击Enter进入。
                   </p>
@@ -98,6 +98,16 @@ a:hover {
 #mcover{
   background: url('../assets/cover2.png');
   background-size: 100% 100%;
+  /* height:100%; */
+  /*让图片贴合屏幕的关键*/
+   position:fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  /* min-height:700px; */
+  /* min-height:1000px; */
+  /* max-height:2000px; */
 }
 #mcover{
   color: #fff;
@@ -108,15 +118,16 @@ a:hover {
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: grid;
+  height:100%;
   grid-template-columns: 100%;
   grid-template-rows: 20% 60% 20%;
   -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
 }
-.site-wrapper-inner {
+/* .site-wrapper-inner { */
   /* display: table-cell; */
   /* vertical-align: center; */
-}
+/* } */
 @media (min-height: 800px) {
   /* Pull out the header and footer */
  .site-wrapper {

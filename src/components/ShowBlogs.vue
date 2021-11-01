@@ -14,7 +14,7 @@
                  
                 </iframe>
               </div> -->
-              <video
+              <!-- <video
                 id="myVideo"
                 controls
                 class="video-js"
@@ -23,7 +23,7 @@
                     src="../assets/videos/坦克大战.mp4"
                     type="video/mp4"
                 >
-              </video>
+              </video> -->
             <article>
                 {{blog.content }}
             </article>
@@ -91,7 +91,7 @@
           </div>
          
          
-        </div><!-- /.blog-sidebar -->
+        </div><!--/*.blog-sidebar* -->
 
       </div><!-- /.row -->
 

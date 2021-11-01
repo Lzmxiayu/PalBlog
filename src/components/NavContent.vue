@@ -4,12 +4,12 @@
         <blog-header/>
         <!-- <music-player/> -->
         <router-view></router-view>
-        <audio 
+        <!-- <audio 
             controls="controls"
             autoplay
             class="music-player">
             <source src="../assets/music/LovingStrangers.mp3">
-      </audio>
+      </audio> -->
       </div>
     </div>
 </template>
@@ -31,8 +31,11 @@ export default {
 
 <style scoped>
 #navcon{
-  font-family: Georgia, "Times New Roman", Times, serif;
-  
+  font-family: Georgia, "Times New Roman", Times, serif;  
+  /* height:100%; */
+  height:auto;
+  /* min-height:100%; */
+   
 }
 
 
