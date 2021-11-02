@@ -80,8 +80,10 @@ export default {
     width:96%;
     margin-left: 2%;
     padding:30px;
-    height:80%;
-    background: white;
+    height:auto;
+    /* background: white; */
+    backdrop-filter: blur(8px);
+    background-color:rgba(255,255,255,0.25); 
     border-radius:15px;
     /* opacity:0.9; */
    
@@ -92,13 +94,8 @@ export default {
 .article-title{
   height:20%;
   margin-bottom:2%;
-  /* displa */
-  /* margin:20px; */
-  /* text-align: center; */
-  /* margin:50px; */
 }
 h1{
-  
   margin: auto;
   width: 50%;
   text-align: center;
@@ -131,9 +128,9 @@ article{
 .editfooter{
   text-align: right;
 }
-@media(min-height:50%){
+/* @media(min-height:50%){
   .arti{
     height:50%;
   }
-}
+} */
 </style>

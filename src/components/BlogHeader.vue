@@ -46,6 +46,8 @@ export default {
 
 <style scoped>
 #blog-header{
+  /* backdrop-filter: blur(8px); */
+  /* background-color:rgba(255,255,255,0.25); */
   padding:0;
   margin-top:25px;
   margin-bottom: 25px;

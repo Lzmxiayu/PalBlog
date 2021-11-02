@@ -120,10 +120,13 @@ export default {
     width:96%;
     margin-left:2%;
     padding:30px;
-    background: white;
+    /* background: white; */
+      /* backdrop-filter: blur(8px); */
+   
     border-radius:15px;
-    opacity:0.9;
-    /* display:center; */
+    backdrop-filter: blur(8px);
+    background-color:rgba(255,255,255,0.25); 
+    opacity:0.77; /* display:center; */
     /* text-align: center; */
     
 }

@@ -100,10 +100,12 @@ export default {
 
 <style scoped>
 #message-board{
-    background:white;
+    /* background:white; */
     border-radius: 15px;
     width:96%;
     margin-left:2%;
+      backdrop-filter: blur(8px);
+    background-color:rgba(255,255,255,0.25); 
     /* padding-top: */
 }
 .container-out{
@@ -119,9 +121,7 @@ export default {
     /* margin:10px; */
     padding:0;
 }
-textarea{
-    color:black;
-}
+
 .add-message{
     text-align: center;
     /* margin:20px 0px 20px 0px ; */
@@ -138,8 +138,9 @@ textarea{
     margin-right:10px;
     background-color:grey;
     opacity:0.6;
-    color:#000000;;
+    color:white;;
     border:0;
+    border-radius: 15px;
     /* margin-top: 5%; */
 }
 .add-message button{

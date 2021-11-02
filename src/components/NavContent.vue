@@ -35,14 +35,19 @@ export default {
   /* height:100%; */
   height:auto;
   /* min-height:100%; */
-   
+  overflow: scroll;
+  width:100vw;
 }
-
+#navcon::-webkit-scrollbar{
+	display:none
+}
 
 .main-con{
   /* background-color: white; */
-  opacity:0.65;
-  width:80%;
+  /* opacity:0.65; */
+  width:80vw;
+  height:100vh;
+  overflow: scroll;
   /* height:80%; */
   /* margin-top:12%; */
   /* height:100%; */
@@ -51,7 +56,9 @@ export default {
   margin-left:10%;
 
 }
-
+.main-con::-webkit-scrollbar{
+	display:none
+}
 .music-player{
   margin-top:10px;
 }

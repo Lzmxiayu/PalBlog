@@ -78,7 +78,6 @@ export default {
                 axios.post(
                 // 'https://jsonplaceholder.typicode.com/posts',
                 'https://vuedemo1-24e76-default-rtdb.asia-southeast1.firebasedatabase.app/posts.json',
-                // './../static/posts.json',
                 this.blog)
                 .then((data)=>{
                     this.submitted=true
@@ -98,19 +97,19 @@ export default {
 </script>
 
 <style scoped>
-#add-blog *{
-    box-sizing: border-box;
 
-}
 #add-blog{
     /* margin-top:25px; */
     width:96%;
     padding:6% 10% ;
     margin-left:2%;
-    opacity:0.9;
-    padding: 0 auto;
-    background: white;
+    /* opacity:0.9; */
+    /* background: white; */
     border-radius:15px;
+   backdrop-filter: blur(8px);
+   background-color:rgba(255,255,255,0.25); 
+   opacity:0.77;
+    
 }
 
 

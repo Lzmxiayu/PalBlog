@@ -39,17 +39,17 @@ export default {
   
   color: #555;
   background:url('./assets/bg3.png');
+  height:auto;
+  width:100vw;
   display: grid; 
-  min-height:100%;
-  /* height:100%; */
-  /* height:100%; */
-  /* overflow-x: hidden; */
-  /* overflow-y:scroll; */
-    /* position:fixed;
-  top: 0;
-  left: 0;
-  right:0; */
-  /* bottom:0; */
+  overflow: scroll;
+  margin-right:17px;
+ /* overflow:hidden; */
+  
+}
+/* 隐藏滚动条 */
+#app::-webkit-scrollbar{
+	display:none
 }
 
 /* @media (min-height: 720px) {

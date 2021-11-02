@@ -14,7 +14,7 @@
                  
                 </iframe>
               </div> -->
-              <!-- <video
+              <video
                 id="myVideo"
                 controls
                 class="video-js"
@@ -23,7 +23,7 @@
                     src="../assets/videos/坦克大战.mp4"
                     type="video/mp4"
                 >
-              </video> -->
+              </video>
             <article>
                 {{blog.content }}
             </article>
@@ -158,7 +158,7 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -170,23 +170,13 @@ h6, .h6 {
   font-weight: 400;
   color: #333;
 }
-/* #show-blog/*
- * Blog name and description
- */
- /* a{
-   color:#999;
- } */
- /* #show-blogs{
-   /* margin-top:60px; */
-   /* padding:25px 15px 25px 15px; */
-   /* padding-right: 15px; */
-   /* background-color: #FFF2E2; */
- /*} */
-/* @media (min-width: 1200px) {
-  .container {
-    width: 100%;
-  }
-} */
+
+ #show-blogs{
+   padding:0%;
+   width:96;
+   /* background-color: white; */
+ }
+
 .blog-header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -213,18 +203,14 @@ h6, .h6 {
   line-height: 1.5;
   margin-right:4%;
   margin-left:2%;  
-  /* margin-top:25px; */
-  /* padding:25px 25px 25px 25px; */
- 
-  /* background: white; */
-  /* box-shadow:0px 0px 10px #000; */
 }
 .single-blog{
-  background: white;
+  /* background: white; */
   margin-bottom:20px;
    border-radius:15px;
    padding:22px;
-  /* margin:top */
+   /* backdrop-filter: blur(8px); */
+   background-color:rgba(255,255,255,0.25); 
 }
 
 #myVideo{
@@ -235,18 +221,16 @@ h6, .h6 {
 
 /* Sidebar modules for boxing content */
 .blog-sidebar{
-  /* margin-left:4%; */
-  /* margin-right:0; */
-  background: white;
-  /* margin-top:25px; */
+  /* background: white; */
+    /* backdrop-filter: blur(8px); */
+   background-color:rgba(255,255,255,0.25); 
+  border-radius: 15px;
+  height:100%;
 }
 .sidebar-module {
-  /* text-align: center; */
   padding: 15px;
-  /* margin: 0 -15px 15px; */
 }
 .sidebar-module-inset {
-  /* padding: 15px; */
   margin:15px;
   background-color: #f5f5f5;
   border-radius: 4px;
@@ -274,9 +258,7 @@ li{
   border-radius: 30px;
   list-style:none;
 }
-/* a{
-  color:#999;
-} */
+
 
 /*
  * Blog posts
@@ -297,9 +279,9 @@ li{
 
 a{
   text-decoration: none;
-}
-/* .music-player{
-  width:100%;
-} */
+  }
+  /* .music-player{
+    width:100%;
+  } */
 
 </style>
